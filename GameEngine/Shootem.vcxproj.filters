@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\InventorySystem">
+      <UniqueIdentifier>{fc8f967e-125d-4f26-b5bf-6c3c6dca25c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InventorySystem">
+      <UniqueIdentifier>{d970013c-8c28-47dd-8807-ed49fd857d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{2462e87f-5179-4a2d-b712-8e56ca9b1f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{0e89c1f1-6161-4b89-a0db-27bf3ba762ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogic">
+      <UniqueIdentifier>{60d237ff-65d4-42df-9098-6ff3ec527745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogic">
+      <UniqueIdentifier>{b6bd6ec9-9f8e-49c2-af44-2fe611c652dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LevelSystem">
+      <UniqueIdentifier>{b97d10bf-c2a6-42d1-9a9e-758e514613fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LevelSystem">
+      <UniqueIdentifier>{725f133c-2208-46c0-adc2-ec39edb741b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Startup">
+      <UniqueIdentifier>{f7a8d6f0-cb2b-4ba6-a7ef-ed4e07794686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Startup">
+      <UniqueIdentifier>{3bcad266-b44c-45fe-bc40-74aca84d2ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InventorySystem\InventoryItems">
+      <UniqueIdentifier>{9d177cf4-b66d-4ba5-b30d-f40e046f3917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CombatSystem">
+      <UniqueIdentifier>{1f05ea45-49d8-4e3b-b55a-8aebd5647774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CombatSystem">
+      <UniqueIdentifier>{0c5f0fcc-7af2-4f10-9329-b44db9c6bbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CombatSystem\Attacks">
+      <UniqueIdentifier>{e55b6963-df5e-4d8b-a452-9a79372c8d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CombatSystem\Attack">
+      <UniqueIdentifier>{1dd68713-8060-4e3c-ac31-b46cb9135704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{987d03af-00a7-4a20-809d-c9ed7d794a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factories">
+      <UniqueIdentifier>{a07e95a3-9ec9-4922-a5c3-ed21cc300353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InventorySystem\InventoryItems">
+      <UniqueIdentifier>{474a6708-3ba1-4b41-8874-c41e5ad0021e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CharacterDisplaySystem">
+      <UniqueIdentifier>{de797c58-87a4-4c3c-8377-e0f91b2f4d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CharacterDisplaySystem">
+      <UniqueIdentifier>{ed43ea08-be72-40be-962b-899335156794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mics">
+      <UniqueIdentifier>{5f0a9401-bd53-470f-be09-598795ec9ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mics\Events">
+      <UniqueIdentifier>{f2f4f3e9-4ace-404f-a77a-8aa35fac380b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mics">
+      <UniqueIdentifier>{b18b4723-0d60-4bb1-a04b-9121de4f6689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mics\Events">
+      <UniqueIdentifier>{2d5b06de-c05d-42a0-bc96-741c6ae25638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mics\Memory">
+      <UniqueIdentifier>{cf6b4682-fee1-452d-a397-58c58b93f5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mics\Other">
+      <UniqueIdentifier>{3929a952-4f56-4d75-be2e-33ea3f776c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mics\Other">
+      <UniqueIdentifier>{f5e95bc0-15c6-4c27-bd3c-5addcf505b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Characters/Enemys">
+      <UniqueIdentifier>{a7647d44-a307-40d4-89d7-638bf92b4b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Characters/Enemys\Physical">
+      <UniqueIdentifier>{14ea2ec4-0091-4269-a4d7-8845cc6539cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Characters/Enemys\Physical\Enemies">
+      <UniqueIdentifier>{e9c203fe-00a8-42f2-8c04-35e234b44e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Items">
+      <UniqueIdentifier>{5e372b8f-3ed2-4b8a-8947-0d0e051b4208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Characters/Enemys">
+      <UniqueIdentifier>{887e2e2a-6699-4722-b3f3-3439f616a0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Characters/Enemys\Physical">
+      <UniqueIdentifier>{55dcf971-9b2e-4b43-a167-458ea4df98e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Characters/Enemys\Physical\Enemies">
+      <UniqueIdentifier>{f47a846c-5fd3-4550-8e42-5cddfc9dfd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Item">
+      <UniqueIdentifier>{59555663-887d-46cc-b6bb-ff7df6584520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Items\NoneStorable">
+      <UniqueIdentifier>{dc071e13-339e-44a5-a38b-51b5a621d94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Items\Storable">
+      <UniqueIdentifier>{6093d381-dad5-4b6a-bca9-cba215e1ad0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Item\Storable">
+      <UniqueIdentifier>{6474c626-4d63-410d-87f3-a55f52e80ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Item\None-Storable">
+      <UniqueIdentifier>{065f15f5-9607-4b25-a05c-3f5c1c040615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Traps">
+      <UniqueIdentifier>{1f3cf134-3039-4a3d-bfec-2b944b301102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Traps">
+      <UniqueIdentifier>{6b7b0655-2f57-4789-9781-7f6c62f3df9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Doors/Caves">
+      <UniqueIdentifier>{5ed0df36-33cf-4f6c-a9dc-aebcb19b5a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Door/Caves">
+      <UniqueIdentifier>{3fa7ba89-83a3-40a5-8947-3eca0efe4df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Blockers">
+      <UniqueIdentifier>{9b9b0843-7a14-48c5-a6ac-a73ecde72908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Blockers">
+      <UniqueIdentifier>{cb27b081-aee7-4696-b2e2-943e0440868d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowEngine">
+      <UniqueIdentifier>{29155a14-1afd-45d4-a177-5488c6b83cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WindowEngine">
+      <UniqueIdentifier>{1dbb28bd-2277-4865-a965-2c4da445bf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\NoneBlockers">
+      <UniqueIdentifier>{0c5afdb7-9767-4d2d-b460-2e74158c579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\NoneBlockers">
+      <UniqueIdentifier>{f1d028a6-e796-488c-9cf2-f6371d3f8616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShopSystem">
+      <UniqueIdentifier>{7bbf269e-04a4-46f2-ada6-8f01647b4958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopSystem">
+      <UniqueIdentifier>{c504758a-aac6-4205-9a17-488c5e2090a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Interaction">
+      <UniqueIdentifier>{0a6271b8-6e7a-426d-810c-b4ce9a5f59ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Interaction">
+      <UniqueIdentifier>{d58766e5-3d63-4374-be60-f0c2541771fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Containers">
+      <UniqueIdentifier>{18820b0c-b238-4511-a393-7325a8103af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Attributes">
+      <UniqueIdentifier>{e10d3669-aa32-49d5-afea-4a8431f88cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\AI">
+      <UniqueIdentifier>{0b8a063d-05dd-4f84-8fed-0fef21cc604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\AI">
+      <UniqueIdentifier>{da972db9-4b96-473a-8eeb-31ddaf8f8c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Attributes">
+      <UniqueIdentifier>{c2041b5b-350c-498e-a922-a0fddae7db4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Containers">
+      <UniqueIdentifier>{35343619-503f-4edc-a5df-2705e0d547b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShopSystem\ShopItems">
+      <UniqueIdentifier>{eba4f51f-f9c0-48e1-8956-2298281c7af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopSystem\ShopItems">
+      <UniqueIdentifier>{4ff327d8-4574-48ae-b470-3a144df2f431}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InventorySystem.h">
+      <Filter>Header Files\InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Camora.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicEngine.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Header Files\WindowEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialize.h">
+      <Filter>Header Files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryHolder.h">
+      <Filter>Header Files\InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatSystem.h">
+      <Filter>Header Files\CombatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordAttack.h">
+      <Filter>Header Files\CombatSystem\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Header Files\CombatSystem\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackModuleHolder.h">
+      <Filter>Header Files\CombatSystem\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryItem.h">
+      <Filter>Header Files\InventorySystem\InventoryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryItemHolder.h">
+      <Filter>Header Files\InventorySystem\InventoryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDisplaySystem.h">
+      <Filter>Header Files\CharacterDisplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayHolder.h">
+      <Filter>Header Files\CharacterDisplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\GameObjects\Characters/Enemys\Physical</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\GameObjects\Characters/Enemys\Physical</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Header Files\GameObjects\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthHeart.h">
+      <Filter>Header Files\CharacterDisplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Hittable.h">
+      <Filter>Header Files\GameObjects\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="BowArrow.h">
+      <Filter>Header Files\CombatSystem\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Header Files\CombatSystem\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files\Mics\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent.h">
+      <Filter>Header Files\Mics\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagement.h">
+      <Filter>Header Files\Mics\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Mics\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\CombatSystem\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConverter.h">
+      <Filter>Header Files\Mics\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Hagle.h">
+      <Filter>Header Files\GameObjects\Characters/Enemys\Physical\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectHolder.h">
+      <Filter>Header Files\GameObjects\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSector.h">
+      <Filter>Header Files\GameObjects\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileObjectHolder.h">
+      <Filter>Header Files\GameObjects\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtificialIntelligence.h">
+      <Filter>Header Files\GameObjects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MeeleEnemy.h">
+      <Filter>Header Files\GameObjects\Characters/Enemys\Physical\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemHandler.h">
+      <Filter>Header Files\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Header Files\GameObjects\Items\NoneStorable</Filter>
+    </ClInclude>
+    <ClInclude Include="RedPotion.h">
+      <Filter>Header Files\GameObjects\Items\Storable</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryRedPotion.h">
+      <Filter>Header Files\InventorySystem\InventoryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="RupeeDisplay.h">
+      <Filter>Header Files\CharacterDisplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenRupee.h">
+      <Filter>Header Files\GameObjects\Items\NoneStorable</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Header Files\GameObjects\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Mics\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitPoint.h">
+      <Filter>Header Files\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint.h">
+      <Filter>Header Files\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSystem.h">
+      <Filter>Header Files\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Header Files\GameObjects\Doors/Caves</Filter>
+    </ClInclude>
+    <ClInclude Include="Beacon.h">
+      <Filter>Header Files\GameObjects\Doors/Caves</Filter>
+    </ClInclude>
+    <ClInclude Include="BigTree.h">
+      <Filter>Header Files\GameObjects\Blockers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Header Files\WindowEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTexture.h">
+      <Filter>Header Files\WindowEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpikeTrap.h">
+      <Filter>Header Files\GameObjects\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Header Files\GameObjects\NoneBlockers</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorSystem.h">
+      <Filter>Header Files\Mics\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowDisplay.h">
+      <Filter>Header Files\CharacterDisplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>Header Files\GameObjects\NoneBlockers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Header Files\ShopSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopSpot.h">
+      <Filter>Header Files\ShopSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Interactable.h">
+      <Filter>Header Files\GameObjects\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjects\Characters/Enemys\Physical</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractableGameObject.h">
+      <Filter>Header Files\GameObjects\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Header Files\GameObjects\Blockers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopItem.h">
+      <Filter>Header Files\ShopSystem\ShopItems</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowShopItem.h">
+      <Filter>Header Files\ShopSystem\ShopItems</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartShopItem.h">
+      <Filter>Header Files\ShopSystem\ShopItems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InventorySystem.cpp">
+      <Filter>Source Files\InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicEngine.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Camora.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Source Files\WindowEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialize.cpp">
+      <Filter>Source Files\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="Shootem.cpp">
+      <Filter>Source Files\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryHolder.cpp">
+      <Filter>Source Files\InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatSystem.cpp">
+      <Filter>Source Files\CombatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files\CombatSystem\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordAttack.cpp">
+      <Filter>Source Files\CombatSystem\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackModuleHolder.cpp">
+      <Filter>Source Files\CombatSystem\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryItem.cpp">
+      <Filter>Source Files\InventorySystem\InventoryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryItemHolder.cpp">
+      <Filter>Source Files\InventorySystem\InventoryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDisplaySystem.cpp">
+      <Filter>Source Files\CharacterDisplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayHolder.cpp">
+      <Filter>Source Files\CharacterDisplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\GameObjects\Characters/Enemys\Physical</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\GameObjects\Characters/Enemys\Physical</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Source Files\GameObjects\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthHeart.cpp">
+      <Filter>Source Files\CharacterDisplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Hittable.cpp">
+      <Filter>Source Files\GameObjects\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="BowArrow.cpp">
+      <Filter>Source Files\CombatSystem\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Source Files\CombatSystem\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\Mics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent.cpp">
+      <Filter>Source Files\Mics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\CombatSystem\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConverter.cpp">
+      <Filter>Source Files\Mics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Hagle.cpp">
+      <Filter>Source Files\GameObjects\Characters/Enemys\Physical\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectHolder.cpp">
+      <Filter>Source Files\GameObjects\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSector.cpp">
+      <Filter>Source Files\GameObjects\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="TileObjectHolder.cpp">
+      <Filter>Source Files\GameObjects\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtificialIntelligence.cpp">
+      <Filter>Source Files\GameObjects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="MeeleEnemy.cpp">
+      <Filter>Source Files\GameObjects\Characters/Enemys\Physical\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemHandler.cpp">
+      <Filter>Source Files\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Source Files\GameObjects\Item\None-Storable</Filter>
+    </ClCompile>
+    <ClCompile Include="RedPotion.cpp">
+      <Filter>Source Files\GameObjects\Item\Storable</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryRedPotion.cpp">
+      <Filter>Source Files\InventorySystem\InventoryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="RupeeDisplay.cpp">
+      <Filter>Source Files\CharacterDisplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenRupee.cpp">
+      <Filter>Source Files\GameObjects\Item\None-Storable</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Source Files\GameObjects\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Mics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitPoint.cpp">
+      <Filter>Source Files\LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Source Files\LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSystem.cpp">
+      <Filter>Source Files\LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Source Files\GameObjects\Door/Caves</Filter>
+    </ClCompile>
+    <ClCompile Include="Beacon.cpp">
+      <Filter>Source Files\GameObjects\Door/Caves</Filter>
+    </ClCompile>
+    <ClCompile Include="BigTree.cpp">
+      <Filter>Source Files\GameObjects\Blockers</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Source Files\WindowEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsTexture.cpp">
+      <Filter>Source Files\WindowEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpikeTrap.cpp">
+      <Filter>Source Files\GameObjects\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>Source Files\GameObjects\NoneBlockers</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorSystem.cpp">
+      <Filter>Source Files\Mics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowDisplay.cpp">
+      <Filter>Source Files\CharacterDisplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>Source Files\GameObjects\NoneBlockers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Source Files\ShopSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Interactable.cpp">
+      <Filter>Source Files\GameObjects\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects\Characters/Enemys\Physical</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractableGameObject.cpp">
+      <Filter>Source Files\GameObjects\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopSpot.cpp">
+      <Filter>Source Files\ShopSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopItem.cpp">
+      <Filter>Source Files\ShopSystem\ShopItems</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowShopItem.cpp">
+      <Filter>Source Files\ShopSystem\ShopItems</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartShopItem.cpp">
+      <Filter>Source Files\ShopSystem\ShopItems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ToDo.txt" />
+  </ItemGroup>
+</Project>

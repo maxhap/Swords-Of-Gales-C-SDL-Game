@@ -1,0 +1,8 @@
+--Properties--
+id=level1
+width=800
+height=600
+backgroundfilelocation=LevelFiles\\welcomescreen.png
+startlevel=LevelFiles\\level1.txt
+entrypointid=ent00
+--End--

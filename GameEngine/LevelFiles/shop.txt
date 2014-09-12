@@ -1,0 +1,95 @@
+--Properties--
+id=level2
+width=800
+height=600
+tilewidth=64
+tileheight=64
+totaltiles=192
+backgroundfilelocation=LevelFiles\\shop.png
+tiletestimagelocation=LevelFiles\\tile.png
+blocktiletestimagelocation=LevelFiles\\walltile.png
+shoplevel=true
+--End--
+--Shop--
+-ShopProperties-
+PosX=150
+PosY=20
+Width=600
+Height=500
+BackgroundImageLocation=LevelFiles\\shopbackground.png
+--End--
+-ShopItems-
+------------------------------------
+Item=ArrowShopItem
+PosX=200
+PosY=120
+Width=400
+Height=100
+Price=2
+RestoreAmount=10
+BackgroundImage=Sprites\\Shop\\Arrows.png
+------------------------------------
+Item=HeartShopItem
+PosX=200
+PosY=220
+Width=400
+Height=100
+Price=1
+RestoreAmount=10
+BackgroundImage=Sprites\\Shop\\heart.png
+-End-
+--End--
+--Tiles--
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+--End--
+--Enemies--
+--End--
+--Objects--
+------------------------------------
+Object=ShopSpot
+PosX=390
+PosY=200
+Width=41
+Height=41
+SpriteLocation=Sprites\\chair.png
+------------------------------------
+Object=Door
+PosX=390
+PosY=394
+Width=47
+Height=51
+StartingAngle=0
+SpriteLocation=Sprites\\door.png
+ForwardLevel=LevelFiles\\level2.txt
+EntryPointID=ent2
+------------------------------------
+Object=Door
+PosX=390
+PosY=394
+Width=47
+Height=51
+StartingAngle=0
+SpriteLocation=Sprites\\door.png
+ForwardLevel=LevelFiles\\level2.txt
+EntryPointID=ent2
+------------------------------------
+Object=Beacon
+PosX=400
+PosY=344
+Width=20
+Height=42
+StartingAngle=0
+SpriteLocation=Sprites\\beacon.png
+EntryPointID=ent1
+--End--
